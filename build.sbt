@@ -4,7 +4,7 @@ name := "Scala Koans"
 
 version := "1.0"
 
-scalaVersion := "2.10.4"
+scalaVersion := "2.12.7"
 
 traceLevel := -1
 
