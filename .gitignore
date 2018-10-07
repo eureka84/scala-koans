@@ -4,7 +4,7 @@ project/build/target
 target
 .*\.DS_Store
 .*\.zip
-.iml
+**/*.iml
 .ipr
 .iws
 .idea*
