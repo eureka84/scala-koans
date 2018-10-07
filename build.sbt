@@ -22,6 +22,5 @@ scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature")
 // disable updating dynamic revisions (including -SNAPSHOT versions)
 offline := true
 
-libraryDependencies ++= Seq(
-	"org.scalatest" %% "scalatest" % "1.9.1" % "test" withSources() withJavadoc()
-)
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.5"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"

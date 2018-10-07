@@ -6,17 +6,17 @@ import support.KoanSuite
 class AboutEmptyValues extends KoanSuite {
 
   koan("None equals None") {
-    assert(None === __)
+    assert(None === None)
   }
 
   koan("None should be identical to None") {
     val a = None
     val b = None
-    assert(a eq __)
+    assert(a eq b)
   }
 
   koan("None can be converted to a String") {
-    assert(None.toString === __)
+    assert(None.toString === "None")
   }
 
   koan("An empty list can be represented by another nothing value: Nil") {

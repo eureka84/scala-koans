@@ -1,9 +1,8 @@
 package org.functionalkoans.forscala
 
-import support.KoanSuite
-import org.scalatest.matchers.ShouldMatchers
+import org.functionalkoans.forscala.support.KoanSuite
 
-class AboutTypeVariance extends KoanSuite with ShouldMatchers {
+class AboutTypeVariance extends KoanSuite {
 
   class Fruit
 
